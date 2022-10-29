@@ -1,10 +1,10 @@
 <?php
 class MySQL_Access{
 	#Параметры соединения с сервером.
-	var $host_name = "";
-	var $user_name = "";
-	var $password = "";
-	var $db_name = "";
+	var $host_name = "std-mysql";
+	var $user_name = "std_1992_profile";
+	var $password = "12345678";
+	var $db_name = "std_1992_profile";
 	
 	var $conn_id = 0; #Отсутствие соединения.
 	var $errno = 0;
@@ -22,7 +22,7 @@ class MySQL_Access{
 		$this->errstr = "";
 		
 		if($this->conn_id == 0){
-			$this->conn_id = @mysql_connect($this->host_name, $this->user_name, $this->password);
+			$this->conn_id = @mysqli_connect($this->host_name, $this->user_name, $this->password);
 
 			if(!$this->conn_id){
 				if(mysql_errno()){

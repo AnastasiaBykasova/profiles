@@ -9,7 +9,7 @@ $result_id = mysql_query("DELETE FROM profile WHERE cats = 0", $conn_id);
 if (!$result_id)
 	die("The query failed.");
 
-print(mysql_affected_rows($conn_id) . " rows were deleted.\n");
+print(mysqli_affected_rows($conn_id) . " rows were deleted.\n");
 
-mysql_close($conn_id);
+mysqli_close($conn_id);
 ?>

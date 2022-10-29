@@ -3,9 +3,10 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Nabla&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins&display=swap" rel="stylesheet">
     <title>Главная</title>
 </head>
 <body>
@@ -15,6 +16,7 @@
                 <div class="header-line">
                     <div class="nav">
                         <a data-content="Home" href="@">Home</a>
+                        <a data-content="DataBase" href="database_1.php">DataBase</a>
                     </div>
                 </div>
             </div>
@@ -23,10 +25,7 @@
     <main>
         <div class="elements">
             <div class="text-desc">
-                <h1 class="description">It's a simple text</h1>
-                <p>Создание сайта нацелено на получение<br> знаний об <b>HTML, CSS, 
-                    PHP</b> и <b>JavaScript</b>. 
-                </p>
+                <p>Make today so awesome that yesterday gets jealous</p>
             </div>
         </div>
     </main>

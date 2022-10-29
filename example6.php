@@ -20,6 +20,6 @@ while($row = mysql_fetch_row($result_id))
 //while($row = mysql_fetch_object($result_id))
 //	print ("id: $row->id, name: $row->name, cats: $row->cats\n.");
 
-mysql_free_result($result_id);
-mysql_close($conn_id);
+mysqli_free_result($result_id);
+mysqli_close($conn_id);
 ?>

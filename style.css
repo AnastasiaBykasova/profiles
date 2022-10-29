@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    /*overflow: hidden;*/
-    background-color: #2D0051;
+    font-family: 'Cormorant Garamond', serif;
+    overflow: hidden;
+    background-color: black;
 }
 .header {
     margin: 0px;
@@ -45,48 +45,31 @@ a:before {
     top: 0;
     content: attr(data-content);
     display: inline-block;
-    color: #e4c2ff;
+    color: #fff332;
     width: 100%;
     clip: rect(0, 0, 190px, 0);
     -webkit-transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms;
     transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms;
 }
 .elements {
-    background-image: url(bg_1.jpg);
-    height:200vh;
+    background-image: url(bg_7.jpg);
+    height: 88vh;
     background-repeat: round;
-    background-size: 30%;
+    background-size: 100%;
     margin-bottom: -45px;
 }
 .text-desc {
     padding-left: 10px;
     padding-right: 10px;
     position: absolute;
-    left: 10%;
-    top: 14%;
-    background-color: #2D0051;
-    color: #e4c2ff;
-}
-.pictures-hp {
-    position: absolute;
-    /*top: 400px;*/
-    top: 20%;
-    left: 43%;
-    transform: rotate(-30deg)
-}
-.list {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: absolute;
-    top: 14%;
-    right: 4.5%;
-    background-color: #2D0051;
-    color: #e4c2ff;
+    left: 2%;
+    top: 8%;
+    background-color: black;
+    color: white;
+    font-size: 26px;
 }
 .footer {
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .down-line {
     height: 3vh;
@@ -101,7 +84,7 @@ a:before {
     font-weight: 700;
     font-size: 14px;
     position: relative;
-    bottom: 8px;
+    bottom: 6px;
     vertical-align: middle;
 }
 .my-name {
@@ -148,7 +131,6 @@ a:before {
     font-weight: 700;
     font-size: 14px;
     position: relative;
-    right: -410px;
-    
+    right: -610px;
     object-position: center;
 }

@@ -19,8 +19,8 @@ $stmt = sprintf("
 
 $result_id = mysql_query($stmt, $conn_id);
 
-print(mysql_num_rows($result_id) . " rows were returned\n.");
-mysql_free_result($result_id);
+print(mysqli_num_rows($result_id) . " rows were returned\n.");
+mysqli_free_result($result_id);
 
-mysql_close($conn_id);
+mysqli_close($conn_id);
 ?>
