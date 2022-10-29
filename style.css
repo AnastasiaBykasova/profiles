@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    /*overflow: hidden;*/
+    background-color: #2D0051;
+}
+.header {
+    margin: 0px;
+}
+.container {
+    margin: 0px;   
+}
+.header-line {
+    padding-top: 25px;
+    display: flex;
+    margin: 0px;
+}
+.nav {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+    object-position: center;
+    vertical-align: text-bottom;
+    font-weight: 700;
+    font-size: 14px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-left: 10px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+a:hover:before {
+    clip: rect(0, 190px, 190px, 0);
+}
+a:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: attr(data-content);
+    display: inline-block;
+    color: #e4c2ff;
+    width: 100%;
+    clip: rect(0, 0, 190px, 0);
+    -webkit-transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms;
+    transition: clip cubic-bezier(0.25, 0.46, 0.45, 0.94) 300ms;
+}
+.elements {
+    background-image: url(bg_1.jpg);
+    height:200vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: -45px;
+}
+.text-desc {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    left: 10%;
+    top: 14%;
+    background-color: #2D0051;
+    color: #e4c2ff;
+}
+.pictures-hp {
+    position: absolute;
+    /*top: 400px;*/
+    top: 20%;
+    left: 43%;
+    transform: rotate(-30deg)
+}
+.list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 14%;
+    right: 4.5%;
+    background-color: #2D0051;
+    color: #e4c2ff;
+}
+.footer {
+    margin-top: 5px;
+}
+.down-line {
+    height: 3vh;
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+.bottom-items {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    bottom: 8px;
+    vertical-align: middle;
+}
+.my-name {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+.text-email {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    margin-right: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.email {
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.text-phone {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 50px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+.number-phone {
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px;
+    object-position: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+.foot-date {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    right: -410px;
+    
+    object-position: center;
+}
